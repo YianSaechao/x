@@ -1,0 +1,13 @@
+{
+  "name": "mod_3",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "installBackend": "cd backend && npm install",
+    "installClient": "cd client && npm install && npm run build",
+    "render": "cd backend && node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -53,7 +53,7 @@ router.post('/login', async (req, res) => {
         console.error(error);
         res.status(500).json({ message: "Login Failed!" });
     }
-});git 
+});
 
 
 module.exports = { userRouter: router};

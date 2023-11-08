@@ -7,12 +7,23 @@ const { userRouter } = require('./routes/users.js');
 const { recipesRouter } = require('./routes/recipes.js');
 const morgan = require('morgan');
 const helmet = require('helmet');
+const path = require("path");
+
 
 
 
 const PORT = 3000;
 
 const app = express();
+
+app.use(express.static(path.join(__dirname, "../client/dist")));
+
+app.use((req, res, next)=> {
+    if (req.path.startsWith('/server')) {
+        req.url = req.url.replace('/server', ''); // strip /server from the path
+    }
+    next();
+  });
 
 app.use(express.json());
 
