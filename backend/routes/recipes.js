@@ -41,16 +41,27 @@ router.put('/', async (req, res) =>{
     }
 })
 
-router.get('/savedRecipes/ids', async (req, res) =>{
-
+router.get('/savedRecipes/ids', async (req, res) => {
     try {
-        const user = await UserModel.findById(req.body.userID);
-
-        res.json({savedRecipes: user?.savedRecipes });
-    } catch(error) {
-        res.status(500).json({ message: 'Internal server error'})
+      const userID = req.query.userID;
+  
+      if (!userID) {
+        return res.status(400).json({ message: 'Missing userID parameter' });
+      }
+  
+      const user = await UserModel.findById(userID);
+  
+      if (!user) {
+        return res.status(404).json({ message: 'User not found' });
+      }
+  
+      res.json({ savedRecipes: user.savedRecipes });
+    } catch (error) {
+      console.error(error);
+      res.status(500).json({ message: 'Internal server error' });
     }
-})
+  });
+  
 
 router.get('/savedRecipes', async (req, res) =>{
 
