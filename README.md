@@ -9,7 +9,7 @@ Register an account and start adding your favorite recipes!
 ![Capture2](https://github.com/YianSaechao/x/assets/87401359/c27fd59d-421c-4cac-8f06-b335b61e19e9)
 
 
-Visit (https://mod3-ywx0.onrender.com/)to get started!
+Visit (https://mod3-ywx0.onrender.com/) to get started!
 
 ## Technologies Used
 
