@@ -20,7 +20,7 @@ app.use(express.static(path.join(__dirname, "../client/dist")));
 
 app.use((req, res, next)=> {
     if (req.path.startsWith('/server')) {
-        req.url = req.url.replace('/server', ''); // strip /server from the path
+        req.url = req.url.replace('/server', ''); 
     }
     next();
   });
