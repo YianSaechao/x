@@ -5,7 +5,8 @@
   "scripts": {
     "installBackend": "cd backend && npm install",
     "installClient": "cd client && npm install && npm run build",
-    "render": "cd backend && node server.js"
+    "render": "cd backend && node server.js",
+    "servers": "concurrently \"cd backend && nodemon --env-file .env server.js\" \"cd client && npm run dev\" "
   },
   "keywords": [],
   "author": "",
