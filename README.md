@@ -4,6 +4,10 @@
 
 Welcome to my recipe app, your one-stop solution for managing and sharing your favorite recipes! This application allows users to register, log in, submit, edit, post, and delete their recipes. You can easily organize and share your culinary creations with the world. 
 Register an account and start adding your favorite recipes!
+![Capture1](https://github.com/YianSaechao/x/assets/87401359/274a743e-0a73-44e5-8f57-1a7f9b3c5529)
+
+![Capture2](https://github.com/YianSaechao/x/assets/87401359/c27fd59d-421c-4cac-8f06-b335b61e19e9)
+
 
 Visit (https://mod3-ywx0.onrender.com/)to get started!
 
