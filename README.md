@@ -30,7 +30,8 @@ To get started with Recipe Book, follow these steps:
    git clone (https://github.com/YianSaechao/x)
 
 ## Unsolved Problems
-At the moment, the application has no known unsolved issues.
+- ** Create recipe function works. The 'Home' page is suppose to show a list of created recipes but it's not working.
+- ** Each recipe has Add, Edit, Delete button but they're not functioning
 
 ## Future Enhancements
 Some of the possible enhancements include:
