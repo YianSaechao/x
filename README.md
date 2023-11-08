@@ -6,7 +6,9 @@ Welcome to my recipe app, your one-stop solution for managing and sharing your f
 Register an account and start adding your favorite recipes!
 ![Capture1](https://github.com/YianSaechao/x/assets/87401359/274a743e-0a73-44e5-8f57-1a7f9b3c5529)
 
-![Capture2](https://github.com/YianSaechao/x/assets/87401359/c27fd59d-421c-4cac-8f06-b335b61e19e9)
+![Capture1](https://github.com/YianSaechao/x/assets/87401359/cb6c208c-657a-4f17-8ef9-342c07598db7)
+
+![Capture2](https://github.com/YianSaechao/x/assets/87401359/12b82c3f-8418-41fa-99d2-81f9005c3ee7)
 
 
 Visit (https://mod3-ywx0.onrender.com/) to get started!
